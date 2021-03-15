@@ -1,25 +1,69 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react';
+import { Route, Link, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import axios from 'axios';
 
-function App() {
+
+
+
+class App extends Component {
+  //method to call bakend to get data
+  //console.log(data)
+
+  componentDidMount = () => {
+    const url = 
+  }
+
+  render() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+        <header>
+        <h1>PTeel Originals</h1>
+        </header>
+<div className='container'>     
+<div className='gallery'>
+  <a target="_blank" href="https://i.imgur.com/gd0YaAe.jpg">
+    <img src="https://i.imgur.com/gd0YaAe.jpg" alt="Farm House" />
+    </a>
+    <div className='desc'>Cobblestone farm house</div>
+</div>
+
+<div className='gallery'>
+  <a target="_blank" href="https://i.imgur.com/gd0YaAe.jpg">
+    <img src="https://i.imgur.com/gd0YaAe.jpg" alt="Farm House" />
+    </a>
+    <div class='desc'>Wanna play ball?</div>
+</div>
+
+<div className='gallery'>
+  <a target="_blank" href="https://i.imgur.com/gd0YaAe.jpg">
+    <img src="https://i.imgur.com/gd0YaAe.jpg" alt="Farm House" />
+    </a>
+    <div class='desc'>Hummingbird on coneflower</div>
+</div>
+
+<div className='gallery'>
+  <a target="_blank" href="https://i.imgur.com/gd0YaAe.jpg">
+    <img src="https://i.imgur.com/gd0YaAe.jpg" alt="Farm House" />
+    </a>
+    <div class='desc'>Lab pup with tennis ball</div>
+</div>
+
+<div className='gallery'>
+  <a target="_blank" href="https://i.imgur.com/gd0YaAe.jpg">
+    <img src="https://i.imgur.com/gd0YaAe.jpg" alt="Farm House" />
+    </a>
+    <div class='desc'>Owl</div>
+</div>
+
+</div> 
     </div>
+
   );
+}
 }
 
 export default App;
