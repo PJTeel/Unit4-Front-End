@@ -1,5 +1,13 @@
+.App {
+  background:beige;
+}
 h1 {
   text-align: center;
+  background: rgb(187, 216, 235);
+  height: 10vh;
+  font-family: 'Redressed', cursive;
+  margin-top: 0vh;
+  padding-top: 2vh;;
 }
 
 .container {
@@ -16,6 +24,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: center;
   width: 20vw;
+  height: 30vh;
   padding: 1vw;
 }
 
@@ -24,6 +33,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
+
   width: 100%;
   height: auto;
 }

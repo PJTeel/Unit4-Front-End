@@ -1,13 +1,10 @@
 import './App.css';
 import React, { Component } from 'react';
-import { Route, Link, Switch, Redirect } from "react-router-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import axios from 'axios';
-import AllPaintings from './allPaintings';
-//import AllPaintins from './allPaintings.js'
-
-
-
+import Show from './Show';
+import Home from './Home';
+import AboutMe from './AboutMe';
 
 class App extends Component {
   constructor(props) {
@@ -30,24 +27,24 @@ class App extends Component {
 
   render() {
 
-    const paintings = this.state.paintings.map(painting => {
-      return (
-        <div className='gallery'>
-            <a target="_blank" href={painting.pic1}>
-              <img src={painting.pic1} alt="Farm House" />
-            </a>
-            <div className='desc'>{painting.title}</div>
-          </div>
-      )
-  });
-
-    return (
+       return (
       <div className="app">
         <header>
-          <h1>PTeel Originals</h1>
+          <h1>PJTeel Originals</h1>
         </header>
         <div className='container'>
-          {paintings}
+      <Switch>
+          <Route exact path='/' render={(routerProps) =>
+            <Home {...this.state} {...routerProps} />
+          }>
+          </Route>
+
+          <Route exact path='/show/:id' render={(routerProps) =>
+            <Show {...this.state} {...routerProps} />
+          }>
+          </Route>
+          <Route exact path='/aboutme/' component={AboutMe} />
+          </Switch>
         </div>
       </div>
 
