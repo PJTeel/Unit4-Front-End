@@ -1,4 +1,4 @@
-h1 {
+.Header h1 {
     text-align: center;
     font-family: 'Redressed', cursive;
     display: inline;
@@ -13,12 +13,12 @@ h1 {
     float: right;
     padding-right: 4vw;
     font-family: 'Redressed', cursive;
-    
+
 }
 
 .Header {
     height: 10vh;
     background-color: rgb(187, 216, 235);
     color: cornsilk;
-    padding-top: 1vh;
+    padding-top: 1.5vh;
 }

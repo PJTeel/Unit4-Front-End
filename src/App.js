@@ -6,6 +6,7 @@ import Show from './Show';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Header from './Header';
+import Footer from './Footer';
 
 class App extends Component {
   constructor(props) {
@@ -31,7 +32,7 @@ class App extends Component {
        return (
       <div className="app">
         <Header></Header>
-        <div className='container'>
+        <div className='containers'>
       <Switch>
           <Route exact path='/' render={(routerProps) =>
             <Home {...this.state} {...routerProps} />
@@ -45,6 +46,7 @@ class App extends Component {
           <Route exact path='/aboutme/' component={AboutMe} />
           </Switch>
         </div>
+        <Footer></Footer>
       </div>
 
     );

@@ -1,11 +1,15 @@
 .app {
-  background: ivory;
+  /* background: ivory; */
+  background: red;
+  width: 100vw;
+  height: 100vh;
 }
+
 
 h1 {
   text-align: center;
   background: rgb(187, 216, 235);
-  height: 10vh;
+  /* height: 10vh; */
   font-family: 'Redressed', cursive;
   margin-top: 0vh;
   padding-top: 2vh;;
@@ -16,10 +20,12 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-content: space-around;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  /* margin-left: 1in; */
+  border: 3px solid yellow;
+  
+  margin-left: 1.8in;
 }
+
 div.gallery {
   margin: 20px;
   border: 2px solid #777;
@@ -28,6 +34,7 @@ div.gallery {
   height: 250px;
   padding: 1vw;
   border-radius: 10px;
+  border: 3px solid white;
 }
 
 div.gallery:hover {

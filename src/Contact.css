@@ -1,8 +1,46 @@
-.App {
-    color: black; 
+textarea {
+    margin-left: 1in;
+    width: 6in;
+    height: 2.5in;
 }
 
+label {
+    margin-left: .25in;
+    font-weight: 700;
+}
 
+.form-control {
+    width: 5in;
+    margin-left: .5in;
+}
+
+.form-control1 {
+    width: 5in;
+    margin-left: 1.50in;
+}
+
+.form-control2 {
+    width: 5in;
+    margin-left: .15in;
+}
+
+.email {
+    width: 5in;
+}
+
+.btn-primary {
+   
+    margin-left: .5in;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    }
 
 
 

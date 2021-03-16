@@ -4,12 +4,9 @@ import axios from 'axios';
 import './App.css';
 
 
-
 class Home extends Component {
 
-
     render() {
-
         const paintings = this.props.paintings.map((value, index) =>
             <div key={index}>
 
@@ -21,15 +18,12 @@ class Home extends Component {
                 </Link>
             </div>
         )
-
-
         return (
             <div className="app" >
                 <div className='container'>
                     {paintings}
                 </div>
             </div>
-
         );
     }
 }

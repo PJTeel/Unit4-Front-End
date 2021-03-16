@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NameForm from './Contact';
 import Contact from './Contact';
-
+import './App.css';
 
 
 class AboutMe extends Component {
@@ -14,7 +14,7 @@ class AboutMe extends Component {
                 <main>
                     <br></br>
                     <div className='AboutMe-Intro-Div'>
-                        <h3>About Me</h3>
+                        <h2>About Me</h2>
                         <br></br>
                         <br></br>
                         <p className='AboutMe-Intro'>

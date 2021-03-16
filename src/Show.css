@@ -1,16 +1,13 @@
-h2 {
-    text-align: center;
-}
 .showMain {
     display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      padding-bottom: 3vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+      /* padding-bottom: 3vh; */
   }
   
   .show {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     display: inline;
     border-width: .25in;
     border-radius: 10px;
