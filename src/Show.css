@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+}
+.showMain {
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding-bottom: 3vh;
+  }
+  
+  .show {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border-width: .25in;
+    border-radius: 10px;
+    border: solid rgb(98, 118, 134) 3px;
+    margin-bottom: 3vh;
+  }

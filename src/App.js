@@ -5,6 +5,7 @@ import axios from 'axios';
 import Show from './Show';
 import Home from './Home';
 import AboutMe from './AboutMe';
+import Header from './Header';
 
 class App extends Component {
   constructor(props) {
@@ -29,9 +30,7 @@ class App extends Component {
 
        return (
       <div className="app">
-        <header>
-          <h1>PJTeel Originals</h1>
-        </header>
+        <Header></Header>
         <div className='container'>
       <Switch>
           <Route exact path='/' render={(routerProps) =>
