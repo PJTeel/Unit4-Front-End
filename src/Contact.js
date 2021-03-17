@@ -35,7 +35,7 @@ class Contact extends React.Component {
               <textarea className="form-control1" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </div>
             <br></br>
-            <button type="submit" className="btn-primary">Submit</button>
+            <button type="submit" className="btn-primary">Submit &#128444;</button>
           </form>
         </div>
       );

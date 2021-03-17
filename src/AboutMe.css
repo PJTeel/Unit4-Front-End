@@ -1,3 +1,20 @@
-.AboutMe h2 {
+p {
+    text-align: center;
+    padding-left: .5in;
+    padding-right: .5in;
+    font-size: 14pt;
+  }
+
+.ContactMe {
+    font-family: 'Redressed', cursive;
+}
+
+.AboutMe {
+    font-size: 14pt;
+
+}
+
+h2 {
+    font-family: 'Redressed', cursive;
     text-align: center;
 }

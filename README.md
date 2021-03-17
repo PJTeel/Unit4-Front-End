@@ -1,70 +1,179 @@
-# Getting Started with Create React App
+# Unit4 - Final Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- <p align="center">
+  <img src="https://www.your-printable-planner.com/image-files/wedding-guest-list.jpg" 
+    width="120" height="90">
+  </a> -->
 
-## Available Scripts
+  <h3 align="center">Unit 2 Project</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    PJTeel Originals
+    <br />
+    <a href="https://github.com/PJTeel/deere-project2-starter"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <!-- <a href="https://github.com/github_username/repo_name">View Demo</a> -->
+    <!-- · -->
+    <!-- <a href="https://github.com/github_username/repo_name/issues">Report Bug</a> -->
+    <!-- · -->
+    <!-- <a href="https://github.com/github_username/repo_name/issues">Request Feature</a> -->
+  </p>
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In this project I have created a full stack web application for my niece to track information on her wedding guests. When I was planning my wedding 19 years ago, I had a spiral bound wedding planner. I used this planner throughout the process, from planning the big day up until the last thank you was written. I have even referenced it over the years. My goal was to create an electronic version of my spiral bound book. My niece can start using it right away to work on compiling her master guest list. Once she has the list provided, she will be able to use the app to keep track of when she mails her wedding invite. She will also be able to track which guests RSVP'd with a "Yes" and the number of people attending. The app allows her to log any shower and wedding gifts she receives from each guest, as well as indicate if she has sent a thank you note to the person. I've included the functuality for her to be able to view the entire guest list on one page. She will also be able to view a summary page for each guest. This will allow her to keep an eye on which guests have not RSVP'd to the wedding invitation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application is still a little rough around the edges. However, it still accomplishes what I initially set out to do. My niece has an electronic version of my spiral bound wedding planner.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- **To avoid retyping too much info. Do a search and replace with your text editor for the following:** -->
+<!-- `github_username`, `Twitter Account`, `repo_name`, `email`, `project_title`, `project_description` -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [GitHub](https://github.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [HEROKU](https://heroku.com)
+* [Sequelize](https://sequelize.org)
+* [Node.js](https://nodejs.org/en/)
+* [Postgres](https://www.postgresql.org/)
+* [Express](http://expressjs.com/)
+* [EJS](https://ejs.co/)
+* [Postman]()
+* [React]
 
-## Learn More
+<!-- GETTING STARTED -->
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get a local copy up and running follow these simple steps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+1. Clone the repo
+   ```sh
+   git clone https://github.com/PJTeel/Unit1-dog-trivia.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- USAGE EXAMPLES -->
+## Usage
+My wireframes for this project are located at:
+[Wireframes](https://github.com/PJTeel/deere-project2-starter/tree/master/wireframes)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+User Stories:
+ - As the website owner, I want to be able to showcase my paintings so that people visiting the page can get an idea for the type of painting I do.
+ - As a shopper, I would like to see additional information on any painting I fine interesting.
+ - As a shopper, I would like to know a little bit about the artist.
+ - As the website owner, I would like an easy way for shoppers to contact me.
+ - As a shopper, I would like to easily navigate between the pages on the website.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!--_For more examples, please refer to the [Documentation](https://example.com)_
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/PJTeel/deere-project2-starter) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+<!-- LICENSE -->
+## License
+
+MIT License
+
+Copyright (c) [2021] [Paula Teel]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+<!-- CONTACT -->
+## Contact
+
+e-mail: pteel@msn.com, LinkedIn: https://www.linkedin.com/in/paula-teel-87a72a48/
+
+
+<!--Acknowledgement-->
+## Acknowledgements
+
+This project would not have been possible without the help of all the folks at General Assembly (https://generalassemb.ly/), my cohort teammates and my mentor/coach.

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import './App.css';
+import './Home.css';
 
 
 class Home extends Component {
@@ -9,7 +10,6 @@ class Home extends Component {
     render() {
         const paintings = this.props.paintings.map((value, index) =>
             <div key={index}>
-
                 <Link to={`/show/${value.id}`}>
                     <div className='gallery'>
                         <img src={value.pic1} alt="{value.title}" />

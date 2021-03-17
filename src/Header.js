@@ -6,7 +6,6 @@ function Header() {
     return (
         <div className='Header'>
             <ul>
-                
                 <h1>PJTeel Originals</h1>
                 <li><Link to='/AboutMe'>
                     <h2>About Me</h2>
