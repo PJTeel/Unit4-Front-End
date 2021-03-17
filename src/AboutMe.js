@@ -12,8 +12,6 @@ class AboutMe extends Component {
                     <br></br>
                     <div className='AboutMe'>
                         <h2>About Me</h2>
-                        <br></br>
-                        <br></br>
                         <p className='AboutMe-Intro'>
                             <p>I have been oil painting for years. I specialize in miniature oil paintings. </p>
                             <p>I donate a portion of my gross sales to dog related or local nonprofit organizations.</p>

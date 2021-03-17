@@ -3,8 +3,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* margin-left: 1in; */
   /* border: 3px solid yellow; */
+  min-height: 70vh;
   margin-top: .5in;
 }
 

@@ -4,7 +4,10 @@
     text-align: center;
     font-size: 8pt;
     width: 100%;
+    
+    bottom: 0;
 }
+
 
 .Footer h1 {
     font-family: 'Redressed', cursive;
