@@ -20,6 +20,8 @@ class Home extends Component {
         )
         return (
             <div className="app" >
+                <h1>Miniature Oil Paintings</h1>
+                <p>Sizes include: 3" x 3", 2" x 4" and 4" x 4"</p>
                 <div className='container'>
                     {paintings}
                 </div>

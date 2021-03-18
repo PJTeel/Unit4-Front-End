@@ -1,3 +1,8 @@
+h1 {
+  font-family: 'Redressed', cursive;
+  text-align: center;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -10,7 +15,8 @@
 
 div.gallery {
   margin: 20px;
-  border: 2px solid #777;
+  /* border: 2px solid #777; */
+  border: 3px solid rgb(187, 216, 235);
   float: center;
   width: 200px;
   height: 250px;
@@ -20,7 +26,8 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 3px solid black;
+  /* border: 3px solid rgb(187, 216, 235); */
+  border: 2px solid #777;
 }
 
 div.gallery img {

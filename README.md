@@ -5,22 +5,19 @@
     width="120" height="90">
   </a> -->
 
-  <h3 align="center">Unit 2 Project</h3>
+  <h3 align="center">Unit 4 Project</h3>
 
   <p align="center">
-    PJTeel Originals
+    PJTeel Miniature oil paintings
     <br />
-    <a href="https://github.com/PJTeel/deere-project2-starter"><strong>Explore the docs »</strong></a>
+    GitHub location for the back-end app:
+    <a href="https://github.com/PJTeel/Unit4-Back-End"><strong>Explore the back-end docs »</strong></a>
+    GitHub location for the front-end app:
+    <a href="https://github.com/PJTeel/Unit4-Front-End"><strong>Explore the front-end docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="https://github.com/github_username/repo_name">View Demo</a> -->
-    <!-- · -->
-    <!-- <a href="https://github.com/github_username/repo_name/issues">Report Bug</a> -->
-    <!-- · -->
-    <!-- <a href="https://github.com/github_username/repo_name/issues">Request Feature</a> -->
   </p>
 </p>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -56,9 +53,11 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-In this project I have created a full stack web application for my niece to track information on her wedding guests. When I was planning my wedding 19 years ago, I had a spiral bound wedding planner. I used this planner throughout the process, from planning the big day up until the last thank you was written. I have even referenced it over the years. My goal was to create an electronic version of my spiral bound book. My niece can start using it right away to work on compiling her master guest list. Once she has the list provided, she will be able to use the app to keep track of when she mails her wedding invite. She will also be able to track which guests RSVP'd with a "Yes" and the number of people attending. The app allows her to log any shower and wedding gifts she receives from each guest, as well as indicate if she has sent a thank you note to the person. I've included the functuality for her to be able to view the entire guest list on one page. She will also be able to view a summary page for each guest. This will allow her to keep an eye on which guests have not RSVP'd to the wedding invitation.
+In this project I have created a full stack web application to showcase my miniature oil paintings. At this point, I am able to display five paintings on cards on the Home page. Clicking on a card will open a new Show page containing additional information on that painting. The Show page provides additional pictures, a description of the painting, and its size. 
 
-The application is still a little rough around the edges. However, it still accomplishes what I initially set out to do. My niece has an electronic version of my spiral bound wedding planner.
+I have also included an AboutMe page. This contains a little information about me. It also contains a form for a person to send me an e-mail. At this time, the e-mailing function is not implemented. The page also provides a map of my location.
+
+Currently, this app does a nice job of displaying my paintings. Long-term, I would like to add functuality that allows people to purchase paintings directly off the site. 
 
 
 <!-- **To avoid retyping too much info. Do a search and replace with your text editor for the following:** -->
@@ -75,8 +74,9 @@ The application is still a little rough around the edges. However, it still acco
 * [Postgres](https://www.postgresql.org/)
 * [Express](http://expressjs.com/)
 * [EJS](https://ejs.co/)
-* [Postman]()
-* [React]
+* [Postman](https://postman.com)
+* [React](https://reactjs.org)
+* [pgAdmin](https://pgadmin.org)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -93,9 +93,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repos
    ```sh
-   git clone https://github.com/PJTeel/Unit1-dog-trivia.git
+   Back End: git clone https://github.com/PJTeel/Unit4-Back-End.git
+   Front End: git clone https://github.com/PJTeel/Unit4-Front-End.git
    ```
 2. Install NPM packages
    ```sh

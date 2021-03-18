@@ -5,6 +5,9 @@
     font-size: 30pt;
   }
 
+.Header h2 {
+    display: inline
+}
 .Header li {
     float: right;
     display: inline;

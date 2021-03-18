@@ -11,10 +11,17 @@ p {
 
 .AboutMe {
     font-size: 14pt;
-
 }
 
 h2 {
     font-family: 'Redressed', cursive;
     text-align: center;
+}
+
+.map {
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    
 }
