@@ -53,7 +53,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-In this project I have created a full stack web application to showcase my miniature oil paintings. At this point, I am able to display five paintings on cards on the Home page. Clicking on a card will open a new Show page containing additional information on that painting. The Show page provides additional pictures, a description of the painting, and its size. 
+In this project I have created a full stack web application to showcase my miniature oil paintings. At this point, I am able to display five paintings on cards on the Home page. Clicking on a card will open a new Show page containing additional information on that painting. The Show page provides additional pictures, a description of the painting, and its size. I created my own backend database containing specific information and several pictures of each of the paintings. I used this database to seed my app. When I have additional paintings I want to include on the website I will modify my file and reseed the app.
 
 I have also included an AboutMe page. This contains a little information about me. The page also provides a map of my location. It also contains a form for a person to send me an e-mail. At this time, the e-mailing function is not implemented. It is on my list of enhancements.
 
@@ -118,7 +118,8 @@ My wireframes for this project are located at:
 
 
 User Stories:
- - As the website owner, I want to be able to showcase my paintings so that people visiting the page can get an idea for the type of painting I do.
+ - As the website owner, I want to be able to showcase my paintings.
+ - As the website owner, I want people to see my paintings on the Home page. I don't want them to have to go looking to find the paintings.
  - As a shopper, I would like to see additional information on any painting I find interesting.
  - As a shopper, I would like to know a little bit about the artist.
  - As the website owner, I would like an easy way for shoppers to contact me.
@@ -137,6 +138,20 @@ User Stories:
 ## Roadmap
 
 See the [open issues](https://github.com/PJTeel/Unit4-Front-End) for a list of proposed features (and known issues).
+
+In terms of future enhancements, my top priority is to get the e-mail functionality working. Since I don't have any pricing information on my the site at this time, it is important people have a way to contact me. 
+
+The current version of the app does a nice job of displaying my paintings. Long-term, I would like to add functuality that allows people to purchase paintings directly off the site. Until I get that functionality working I would like to include a link to my etsy shop on this website. 
+
+In addition, I would like to add a gallery page to display paintings that I have sold and/or completed to demonstrate my wide range of subjects.
+
+My long-term plan is to specialize in painting pet portraits. When I start doing this, I would like to have the ability to show examples of my final paintings to the photos provided.
+
+Since I do take custom orders, it would be nice to have the ability for people to place orders and upload photos directly from the website.
+
+I would also like to include a section on either the Home or AboutMe page to list any upcoming art shows I will be participating in.
+
+If I receive positive feedback from customers I would like to include this information somewhere on the site.
 
 
 
