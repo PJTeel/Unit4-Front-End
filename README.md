@@ -6,9 +6,9 @@
   </a> -->
 
   <h3 align="center">Unit 4 Project</h3>
-
+  <h3 align="center">PJTeel Miniature oil paintings</h3>
+  <br />
   <p align="center">
-    PJTeel Miniature oil paintings
     <br />
     GitHub location for the back-end app:
     <a href="https://github.com/PJTeel/Unit4-Back-End"><strong>Explore the back-end docs »</strong></a>
@@ -55,9 +55,15 @@
 
 In this project I have created a full stack web application to showcase my miniature oil paintings. At this point, I am able to display five paintings on cards on the Home page. Clicking on a card will open a new Show page containing additional information on that painting. The Show page provides additional pictures, a description of the painting, and its size. 
 
-I have also included an AboutMe page. This contains a little information about me. It also contains a form for a person to send me an e-mail. At this time, the e-mailing function is not implemented. The page also provides a map of my location.
+I have also included an AboutMe page. This contains a little information about me. The page also provides a map of my location. It also contains a form for a person to send me an e-mail. At this time, the e-mailing function is not implemented. It is on my list of enhancements.
 
-Currently, this app does a nice job of displaying my paintings. Long-term, I would like to add functuality that allows people to purchase paintings directly off the site. 
+Currently, this app does a nice job of displaying my paintings. Long-term, I would like to add functuality that allows people to purchase paintings directly off the site. Until I get that functionality working I would like to provide a link to my etsy shop on this website. 
+
+In addition, I would like to add a gallery page to display paintings that I have sold and/or completed to demonstrate my wide range of subjects. My long-term plan is to specialize in painting pet portraits. When I start doing this, I would like to have the ability to compare my final painting to the photo provided.
+
+I would also like to include a section on either the Home or AboutMe page to list any upcoming art shows I will be participating in.
+
+This app is deployed at: https://paula-unit4-front.herokuapp.com/
 
 
 <!-- **To avoid retyping too much info. Do a search and replace with your text editor for the following:** -->
@@ -108,15 +114,19 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 My wireframes for this project are located at:
-[Wireframes](https://github.com/PJTeel/deere-project2-starter/tree/master/wireframes)
+[Wireframes](https://github.com/PJTeel/Unit4-Front-End/tree/master/planning)
 
 
 User Stories:
  - As the website owner, I want to be able to showcase my paintings so that people visiting the page can get an idea for the type of painting I do.
- - As a shopper, I would like to see additional information on any painting I fine interesting.
+ - As a shopper, I would like to see additional information on any painting I find interesting.
  - As a shopper, I would like to know a little bit about the artist.
  - As the website owner, I would like an easy way for shoppers to contact me.
  - As a shopper, I would like to easily navigate between the pages on the website.
+ - As a shopper, I would like to see several pictures of a painting from differen distances/perspectives.
+ - As the website owner, I do not want people to have the ability to upload their own images.
+ - As the website owner, I want the ability to easily add/remove paintings to the home page.
+ - As the website owner, I want to provide the same information for each painting.
 
 
 <!--_For more examples, please refer to the [Documentation](https://example.com)_
@@ -126,7 +136,7 @@ User Stories:
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/PJTeel/deere-project2-starter) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/PJTeel/Unit4-Front-End) for a list of proposed features (and known issues).
 
 
 
