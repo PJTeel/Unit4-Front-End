@@ -8,11 +8,11 @@ function Header() {
             <ul>
                 <h1>PJ Teel</h1>
                 <li><Link to='/AboutMe'>
-                    <h2>About Me</h2>
+                    <a>About Me</a>
                 </Link>
                 </li>
                 <li><Link to='/'>
-                    <h2>Home</h2>
+                    <a>Home</a>
                 </Link>
                 </li>
             </ul>

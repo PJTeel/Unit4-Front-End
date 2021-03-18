@@ -4,7 +4,6 @@ import './Show.css';
 import './App.css';
 
 
-
 class Show extends Component {
     render() {
 

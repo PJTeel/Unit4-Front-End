@@ -5,19 +5,30 @@
     font-size: 30pt;
   }
 
-.Header h2 {
-    display: inline
-}
 .Header li {
     float: right;
     display: inline;
     padding-right: 4vw;
     font-family: 'Redressed', cursive;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 16pt;
 }
-
 
 .Header {
     height: 1in;
     background-color: rgb(187, 216, 235);
     padding-top: 1.5vh;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: rgb(18, 59, 135);
+}
+
+a:hover {
+    color: rgb(97, 95, 95);
 }

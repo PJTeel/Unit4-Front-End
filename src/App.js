@@ -16,9 +16,8 @@ class App extends Component {
     }
   }
   //method to call bakend to get data
-  //console.log(data)
   componentDidMount = () => {
-    const url = process.env.REACT_APP_URL||'http://localhost:3001/paintings'
+    const url = process.env.REACT_APP_URL || 'http://localhost:3001/paintings'
     // const url = 'https://unit-4-backend.herokuapp.com/paintings/'
     axios.get(url).then(response => {
       console.log(response.data.allPaintings)
@@ -30,21 +29,20 @@ class App extends Component {
 
   render() {
 
-       return (
+    return (
       <div className="app">
         <Header></Header>
         <div className='containers'>
-      <Switch>
-          <Route exact path='/' render={(routerProps) =>
-            <Home {...this.state} {...routerProps} />
-          }>
-          </Route>
-
-          <Route exact path='/show/:id' render={(routerProps) =>
-            <Show {...this.state} {...routerProps} />
-          }>
-          </Route>
-          <Route exact path='/aboutme/' component={AboutMe} />
+          <Switch>
+            <Route exact path='/' render={(routerProps) =>
+              <Home {...this.state} {...routerProps} />
+            }>
+            </Route>
+            <Route exact path='/show/:id' render={(routerProps) =>
+              <Show {...this.state} {...routerProps} />
+            }>
+            </Route>
+            <Route exact path='/aboutme/' component={AboutMe} />
           </Switch>
         </div>
         <Footer></Footer>
